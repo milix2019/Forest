@@ -1,0 +1,321 @@
+html, body{
+    margin: 0px;
+    padding:0px;
+    background-color: #1e2129;
+}
+
+body * {
+    font-family: Roboto,sans-serif;
+}
+
+.image-gallery-image{
+    height:350px!important;
+}
+
+/* Custome Slider */
+.slide-container {
+    margin: auto; 
+    width: 100% !important;
+    height: 280px!important;
+}
+
+h3 {
+text-align: center; }
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 2px 2px #3e3e3e;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    width: 100%;
+}
+
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
+
+
+.react-slideshow-container + div.indicators {
+    margin-top: 0 !important;
+}
+
+.MuiContainer-root {
+    padding: 0em !important;
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+    max-width: 100%!important;
+}
+
+.react-slideshow-container + div.indicators {
+    justify-content: baseline!important;
+    align-items: baseline!important;
+    padding-left: 22px;
+}
+
+.react-slideshow-container .nav:last-of-type,
+.react-slideshow-container .nav:first-of-type {
+    display: none !important;
+}
+
+.react-slideshow-wrapper .images-wrap > div {
+    width: 100%;
+}
+
+.each-slide > div {
+    height: 44vh;
+    justify-content: baseline!important;
+    align-items: baseline!important;
+    display: inherit!important;
+}
+
+.each-slide span {
+    background: transparent!important;
+    line-height: 21;
+}
+
+.MuiTypography-gutterBottom {
+    color: blanchedalmond!important;
+}
+
+.MuiTypography-colorTextSecondary {
+    color: blanchedalmond!important;
+}
+
+.MuiTypography-colorTextSecondary {
+    color: #dedede!important;
+}
+
+.MuiGrid-container {
+    padding: 9px!important;
+}
+
+.MuiAppBar-colorDefault {
+    background-color: transparent!important;
+}
+
+/* css for body */
+/* @media screen and (max-width: 768px) {
+    .grid-size *{
+            width: 100%!important;
+    }
+}
+*/
+.img-size-cast{
+    border-radius: 6.8px;
+    overflow: hidden;
+    border: 1px solid #00000052;
+    cursor: pointer!important;
+    width: 93px;
+    height: auto;
+    /* max-width: 100%; */
+}
+.img-size{
+    border-radius: 6.8px;
+    overflow: hidden;
+    border: 1px solid #00000052;
+    cursor: pointer!important;
+}
+.slider-image {
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 0 28px!important;
+} 
+.grid-size{
+    max-width: 165px!important;
+    text-align: center!important;
+    margin-bottom: 1em!important;
+}
+.react-slideshow-wrapper.slide::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 83px;
+    /* border-radius: 6.8px; */
+    overflow: hidden;
+    margin-top: -5.2em;
+    background-color: rgba(255,255,255,0);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),rgb(30, 33, 41));
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(30, 33, 41));
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,0),rgba(30, 33, 41));
+    background-image: -o-linear-gradient(top,rgba(255,255,255,0),rgba(30, 33, 41));
+    background-image: linear-gradient(top,rgba(255,255,255,0),rgba(30, 33, 41));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255, 255, 255, 0)', endColorStr='rgba(0, 0, 0, .8)');
+}
+.grid-size:before {
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 57px;
+    border-radius: 6.8px;
+    overflow: hidden;
+    margin-top: 9em;
+    background-color: rgba(255,255,255,0);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -o-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255, 255, 255, 0)', endColorStr='rgba(0, 0, 0, .8)');
+}
+
+.movie-title{
+    font-family: Roboto,sans-serif;
+    color: #fff!important;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -2em;
+    position: relative;
+}
+.quality{
+    position: absolute;
+    font-size: 0px;
+    margin-left: 116px;
+    margin-top: 5px;
+    z-index: 1;
+    padding: 1px 4px;
+    background: #fed700;
+    color: #222;
+    font-weight: 500;
+    font-size: 11px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    font-family: Roboto,sans-serif;
+}
+
+.indicators {
+    float: left!important;
+    bottom: 1em!important;
+    position: relative!important;
+}
+
+.text-suggestion{
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #00acc1;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.color-formgrp{
+    color: rgb(221, 221, 221)!important;
+    margin-left: 8px!important;
+    margin-bottom: 14px!important;
+    font-weight: 300!important;
+    font-family: Roboto,sans-serif!important;
+}
+.color-formgrp>.MuiBox-root{
+    cursor: pointer;
+}
+.MuiRating-iconEmpty {
+    color: rgb(0, 0, 0)!important;
+}
+
+.MuiAppBar-colorDefault {
+    color: #FFF!important;
+}
+
+@media only screen and (max-width: 960px) {
+    .movie-img {
+        text-align: left!important;
+    }
+}
+.movie-img{
+    padding-left: 20px!important;
+}
+.known-for{
+    color: #fff!important;
+    font-weight: 400;
+    font-size: 9px!important;
+    margin-top: -2em!important;
+    position: relative;
+    text-align: center!important;
+}
+
+.knownfor-size{
+    max-width: 165px!important;
+    text-align: center!important;
+    margin-bottom: 1em!important;
+    margin-left: 5px!important;
+}
+.knownfor-size:before{
+    content: "";
+    position: absolute;
+    width: 95px;
+    height: 45px;
+    border-radius: 6.8px;
+    overflow: hidden;
+    margin-top: 6em;
+    background-color: rgba(255,255,255,0);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -o-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255, 255, 255, 0)', endColorStr='rgba(0, 0, 0, .8)');
+}
+.cast-title{
+    margin-right: 12px;
+    font-weight: bold;
+}
+.cast{
+    cursor: pointer;
+    background-color: #13265a;
+    margin: 2px;
+    padding: 1px;
+    border: 1px solid #0e1646;
+    box-shadow: -1px -1px 1px 1px #21252d;
+    border-radius: 5px
+}
+.cast-pref{
+    margin-top: 4px;
+    margin-right: 3px;
+
+}
+.margin-custom{
+    margin-top: -1px;
+}
+
+.title-small{
+    font-family: 'cursive';
+    font-size: 11px;
+}
