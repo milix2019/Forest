@@ -124,8 +124,8 @@ const Movie = (props) => {
     return (
         <Container maxWidth="md" className={classes.root}>
             <Grid container>
-                <Grid className="movie-img" item xs={12} sm={12} md={4} lg={4}>
-                    <img width="auto" height={height} style={{borderRadius: "6px"}} src={`http://image.tmdb.org/t/p/w500/${poster_path}`} />
+                <Grid className="movie-img" item xs={12} sm={12} md={4} lg={4} style={{ textAlign: "right", paddingLeft: "20px" }}>
+                    <img width="auto" height={height}  style={{borderRadius: "6px"}} src={`http://image.tmdb.org/t/p/w500/${poster_path}`} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={8} lg={8} style={{ paddingLeft: "10px" }}>
                     <FormGroup row className={classes.whiteColor}>
